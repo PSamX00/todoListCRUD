@@ -1,0 +1,30 @@
+.InputTextArea{
+    width: 50%;
+    height: 15%;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    border: none;
+  
+    color: white;
+}
+.InputTextAreaDark{
+    width: 50%;
+    height: 15%;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    border: none;
+  
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:760px) {
+    .InputTextArea{
+    width: 90%;
+    height: 10%;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 5px;
+    border: none;
+}   
+}

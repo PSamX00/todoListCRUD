@@ -1,0 +1,176 @@
+:root {
+    --container-color: #277BC0;
+    --addtodoColor:#FFB200;
+    --addBtn-color:#FFF4CF;
+    --container-colorDark: #151515;
+    --addtodoColorDark:#3C415C;
+    --addBtn-colorDark: #B4A5A5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.componentContainer{
+    background-color: var(--container-color);
+  min-height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.componentContainerDark{
+    background-color:var(--container-colorDark);
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+  
+}
+.addTodo{
+  width: 70%;
+    background-color: var(--addtodoColor);
+    height: 50vh;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+ 
+}
+.addTodoDark{
+    
+    width: 70%;
+    background-color:var(--addtodoColorDark);
+    height: 50vh;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.darkMode{
+    position: fixed;
+    left: 95%;
+    top:5%;
+    border:none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    color: white;
+
+}
+
+
+.datePriroitySpan{
+    display: flex;
+    width: 80%;
+    height: 12%;
+    justify-content: space-evenly;
+  
+    }
+
+.addBtn{
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--addBtn-color)
+
+     }
+     .todoBackground{
+        width: 70%;
+     }
+    .todoBackgroundDark{
+      
+        width: 70%;
+   
+    }
+.addBtnDark{
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--addBtn-colorDark)
+}
+.todoHeadingDark{
+     margin-top: 1%;
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 0 0 13px ;
+}
+.todoHeading{
+    margin-top: 1%;
+    font-size: 30px;
+     font-family: 'Silkscreen', cursive;
+    text-shadow: 0 0 13px ;
+}
+@media screen and (max-width: 768px) {
+    .addTodoDark{
+    width: 95%;
+    
+    height: 50vh;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+ 
+}
+    .addTodo{
+    width: 95%;
+
+    height: 50vh;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+    }
+    .todoBackgroundDark{
+       
+        width: 95%;
+        margin: 3% 0;
+   
+    }
+    .todoBackground{
+       
+        width: 95%;
+        margin: 3% 0;
+   
+    }
+    .datePriroitySpan{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 10%;
+    color: black;
+  
+    }
+    .darkMode{
+    position: fixed;
+    left: 90%;
+    top:90%
+}
+
+}
