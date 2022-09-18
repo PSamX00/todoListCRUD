@@ -27,7 +27,6 @@ export const Card = ({
 		let current = new Date();
 		let currentDate = current.getDate();
 		let currentMonth = current.getMonth();
-		console.log(currentMonth + 1, currentDate);
 
 		let days = [
 			31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 330, 365,

@@ -6,7 +6,7 @@
     border-radius: 5px;
     border: none;
   
-    color: white;
+    color: black;
 }
 .InputTextAreaDark{
     width: 50%;
@@ -15,9 +15,13 @@
     margin: 2%;
     border-radius: 5px;
     border: none;
+
   
     color: rgb(255, 255, 255);
+}input:focus{
+    outline: none;
 }
+
 @media screen and (max-width:760px) {
     .InputTextArea{
     width: 90%;
@@ -27,4 +31,7 @@
     border-radius: 5px;
     border: none;
 }   
+input:focus{
+    outline: none;
+}
 }

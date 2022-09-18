@@ -1,7 +1,8 @@
 :root{
     
-    --colorCard:#3FA796;
+    --colorCard:#0e387a;
     --colorCardDark:#301B3F; 
+    --font-COLOR: #9fafca;
 }
 
 
@@ -16,7 +17,7 @@
     width: 100%;
     
      border-radius: 15px;
-    box-shadow: 0 0 12px  rgba(131, 105, 218, 0.733);
+    
     margin:  3% 0 ;
   
 }
@@ -27,33 +28,35 @@
     width: 100%;
     
     
-    box-shadow: 0 0 12px  rgba(131, 105, 218, 0.733);
-    border-radius: 15px;
+    
+    border-radius: 10px;
     margin:  3% 0 ;
+    cursor: pointer;
 }
 
 .titleContainer{
   
-      color:  rgb(255, 255, 255);;
+      color:var(--font-COLOR);
     font-size: clamp(26px, 2vw, 13px);
     font-weight: 500;
     margin: 0.2em 0;
    font-family: 'Merienda', cursive;;
+     cursor: pointer;
 }
 .descriptionContainer{
-  
+  color:var(--font-COLOR);
     font-size: clamp(15px, 2vw, 10px);
     font-family: 'Jost', sans-serif;
 }
 .statusAndPriotity{
-  
+  color:var(--font-COLOR);
     min-width: 50%;
     font-size: clamp(9px, 2vw, 15px);
 }
 
 .editingOptions {
     
-   
+   color:var(--font-COLOR);
     margin-top: 1em;
     cursor: pointer;
     min-width: 100%;
@@ -129,10 +132,10 @@
     align-items: center;
 }
 .daysRemaining{
-    color: white
+   color:var(--font-COLOR);
 }
 .lastDateCont{
-    color:  white;;
+    color:var(--font-COLOR);
 }
 
 @media screen and (max-width: 768px) {
@@ -146,8 +149,18 @@
     border-radius: 15px;
   
 }
+.deleteEdit{
+    width: 20%;
+}
+
 
     
   
 }
 
+.cardContainer:hover{
+    transform: scale(1.02,1.02);
+    box-shadow: 0 0 12px  rgba(171, 155, 226, 0.733);
+}
+.cardContainerDark:hover{
+      transform: scale(1.02,1.02);box-shadow: 0 0 12px  rgba(131, 105, 218, 0.733);}

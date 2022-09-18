@@ -1,9 +1,9 @@
 :root {
-    --container-color: #277BC0;
-    --addtodoColor:#FFB200;
+    --container-color: #e3c6c6;
+    --addtodoColor:#daeed741;
     --addBtn-color:#FFF4CF;
     --container-colorDark: #151515;
-    --addtodoColorDark:#3C415C;
+    --addtodoColorDark:#3c484e;
     --addBtn-colorDark: #B4A5A5;
 }
 
@@ -120,6 +120,7 @@
     font-size: 30px;
      font-family: 'Silkscreen', cursive;
     text-shadow: 0 0 13px ;
+    color: #151515;
 }
 @media screen and (max-width: 768px) {
     .addTodoDark{
